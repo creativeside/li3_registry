@@ -1,4 +1,8 @@
 With this plugin you can store settings of your application into the database by a key and value.
 
-Example:
+Example for writing
 Registry::write('title', 'Application');
+
+Example for reading
+Registry::read('title', 'Unknown title');
+('Unknown title' is the default value for when the key does not exists)
